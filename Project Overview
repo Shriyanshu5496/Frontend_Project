@@ -1,0 +1,45 @@
+# Resume ATS Compatibility Analyzer
+
+## Overview
+Resume ATS Compatibility Analyzer is a web application designed to help job seekers evaluate their resumes against Applicant Tracking Systems (ATS). This tool analyzes the content of a resume and provides a score based on various criteria, helping users optimize their resumes for better chances of passing through ATS filters.
+
+## Features
+- User-friendly interface for resume input.
+- Real-time ATS score calculation.
+- Responsive design using Bootstrap.
+- Custom styling for enhanced user experience.
+
+## Project Structure
+```
+ats-score-generator
+├── src
+│   ├── index.html         # Main HTML document
+│   ├── css
+│   │   └── styles.css     # Custom styles
+│   ├── js
+│   │   └── app.js         # JavaScript functionality
+│   └── assets             # Directory for additional assets
+└── README.md              # Project documentation
+```
+
+## Installation
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```
+   cd ats-score-generator
+   ```
+3. Open the `src/index.html` file in your web browser to view the application.
+
+## Usage
+- Input your resume content into the provided text area.
+- Click the "Calculate Score" button to receive your ATS score.
+- Review the suggestions provided to improve your resume.
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
